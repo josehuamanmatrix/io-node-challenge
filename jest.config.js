@@ -2,6 +2,7 @@ module.exports = {
   testEnvironment: "node",
   collectCoverage: true,
   verbose: true,
+  passWithNoTests: true,
   testMatch: ["**/*.(test|steps).+(ts|tsx|js)"],
   setupFiles: ["dotenv/config"],
   coveragePathIgnorePatterns: ["/node_modules/", "/test/", "/dist/"],
